@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 import ScenarioSelector from "./ScenarioSelector";
 import CashRanges from "./CashRanges";
 import HeadsUp from "./HeadsUP/HeadsUp";
+import HandMatrix from "./Components/HandMatrix";
+import RangeBuilder from "./RangeBuilder";
 
 export default function App({ match }) {
   const { path } = match;
@@ -29,6 +31,9 @@ export default function App({ match }) {
         <Switch>
           <Route path="/cash">cash</Route>
           <Route path="/heads-up">Heads-up</Route>
+          <Route path="/range-builder">
+            <RangeBuilder />
+          </Route>
           <Route path="/range-builder">Range-Builder</Route>
         </Switch>
       </div>
