@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gruntpoker/training-app)
+
 This project can be found at shortstaking.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
